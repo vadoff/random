@@ -6,7 +6,7 @@ A simple class to generate integers or floats between two numbers.
 
 Install:
 --------
-Just drop the files into your library and #import "Random.h" to use.
+Just drop the files into your library, and #import "Random.h" to use.
 
 Example:
 --------
