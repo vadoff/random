@@ -1,9 +1,14 @@
 iOS Random Number Generator
-======
+===========================
 
-Simple class to generate integers or floats between two numbers.
+A simple class to generate integers or floats between two numbers.
 
-Just drag the files into your library and #import "Random.h" to use.
+
+Install:
+--------
+Just drop the files into your library and #import "Random.h" to use.
 
 Example:
+--------
+NSInteger randomInteger = [Random randomIntegerFrom:22 to:56];
 CGFloat randomFloat = [Random randomFloatFrom:0.5 to:8.5];
