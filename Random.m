@@ -26,10 +26,7 @@
   }
   
   CGFloat difference = toFloat - fromFloat;
-  
-  CGFloat floata = ((double)arc4random() / 0x100000000) * difference + fromFloat;
-  NSLog(@"%f", floata);
-  return floata;
+  return ((double)arc4random() / 0x100000000) * difference + fromFloat;
 }
 
 @end
